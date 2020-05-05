@@ -2,6 +2,9 @@
 
 A theme for Ulauncher. One Dark theme.
 
+## Screenshot
+![](https://raw.githubusercontent.com/sudosubin/one-dark-ulauncher/assets/screenshot.png)
+
 ## Installation
 
 ```sh
