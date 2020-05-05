@@ -1,30 +1,38 @@
 /**
+ * Colors
+ */
+@define-color on-black  #1E2127;
+@define-color on-grey1  #282c34;
+@define-color on-grey2  #5C6370;
+@define-color on-white  #ABB2BF;
+
+/**
  * App Window
  */
-@define-color bg_color #393D40;
+@define-color bg_color @on-black;
 @define-color window_bg @bg_color;
-@define-color window_border_color #393939;
-@define-color prefs_backgroud #aaa;
+@define-color window_border_color @on-black;
+@define-color prefs_backgroud @on-white;
 
 /**
  * Input
  */
-@define-color selected_bg_color #4B5053;
-@define-color selected_fg_color #d5d5d5;
-@define-color input_color #ddd;
+@define-color selected_bg_color @on-grey1;
+@define-color selected_fg_color @on-white;
+@define-color input_color @on-white;
 @define-color caret_color darker(@input_color);
 
 /**
  * Result items
  */
-@define-color item_name #B3BAB8;
-@define-color item_text #999;
-@define-color item_box_selected #4B5053;
-@define-color item_text_selected #ccc;
-@define-color item_name_selected #bbb;
-@define-color item_shortcut_color #777;
+@define-color item_name @on-white;
+@define-color item_text @on-grey2;
+@define-color item_box_selected @on-grey1;
+@define-color item_text_selected @on-white;
+@define-color item_name_selected @on-white;
+@define-color item_shortcut_color @on-white;
 @define-color item_shortcut_shadow darker(@bg_color);
-@define-color item_shortcut_color_sel #ccc;
+@define-color item_shortcut_color_sel @on-white;
 @define-color item_shortcut_shadow_sel darker(@item_box_selected);
 
 .app {
