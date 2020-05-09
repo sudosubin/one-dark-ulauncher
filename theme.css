@@ -17,7 +17,7 @@
 /**
  * Input
  */
-@define-color selected_bg_color @on-grey1;
+@define-color selected_bg_color @on-grey2;
 @define-color selected_fg_color @on-white;
 @define-color input_color @on-white;
 @define-color caret_color darker(@input_color);
@@ -50,7 +50,7 @@
 .input *:selected,
 .input *:focus,
 *:selected:focus {
-    background-color: alpha (@selected_bg_color, 0.9);
+    background-color: alpha (@selected_bg_color, 0.25);
     color: @selected_fg_color;
 }
 
